@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La bibliothèque d'Oxfort sixième dialogue entre Pasquin &amp; Marforio sur les affaires du tems.</title>
+            <author>Pasquino.</author>
+         </titleStmt>
+         <extent>Approx. 67 KB of XML-encoded text transcribed from 29 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2016-02">2016-02 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A28132</idno><idno type="EEBO-CITATION">15260877</idno>
+  <idno type="VID">103294</idno>
+  <idno type="EEBO-PROQUEST">2240951206</idno>
+  
+            <idno type="STC">Wing B2864</idno>
+            <idno type="STC">ESTC R35343</idno>
+            <idno type="OCLC">15260877</idno>
+            <availability><p>This keyboarded and encoded edition of the work described above is co-owned by the
+    institutions providing financial support to the Early English Books Online Text Creation
+    Partnership. This text is available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Creative Commons 0 1.0 Universal
+    licence</ref>. The text can be copied, modified, distributed and performed, even for commercial
+    purposes, all without asking permission.</p></availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt><relatedItem type="facs" target="https://data.historicaltexts.jisc.ac.uk/view?pubId=eebo-e"/>
+            <note>(EEBO-TCP ; phase 2, no. A28132)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 103294)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1143:2)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>La bibliothèque d'Oxfort sixième dialogue entre Pasquin &amp; Marforio sur les affaires du tems.</title>
+                  <author>Pasquino.</author>
+                  <author>Marforio.</author>
+               </titleStmt>
+               <extent>57 p.   </extent>
+               <publicationStmt>
+                  <publisher>Chez Abraham Scott,</publisher>
+                  <pubPlace>Londres :</pubPlace>
+                  <date>1690.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Full documentation of the original data capture process is available from the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.
+   All versions of the texts are now archived and freely available for download. See <ref target="https://textcreationpartnership.org/faq/#faq05">the TCP Download FAQ</ref>
+   for detailed information. The TEI P5 versions are also freely available from the <ref target="https://github.com/textcreationpartnership">TCP Github repository</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp" matchPattern="([0-9\-]+):([0-9IVX]+)" replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char" matchPattern="(.+)" replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="frm">frm</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term type="topical_term">Church and state --  England --  Anecdotes, facetiae, satire, etc.</term>
+               <term type="topical_term">Pasquinades.</term>
+               <term type="geographic_name">Great Britain --  History --  Anecdotes</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-02 </date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images </change>
+         <change>
+            <date>2014-11 </date>
+            <label>John Latta </label>Sampled and proofread </change>
+         <change>
+            <date>2014-11 </date>
+            <label>John Latta</label>Text and markup reviewed and edited </change>
+         <change>
+            <date>2015-03 </date>
+            <label>pfs</label>Batch review (QC) and XML conversion </change>
+      <change><date>2021-05 </date><label>lb</label>TEI P5 conversion </change></revisionDesc>
+   </teiHeader>
+   <text xml:lang="fre">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:103294:1"/>
+            <p>LA BIBLIOTHEQUE D'OXFORT.</p>
+            <p>
+               <hi>SIXIÈME DIALOGƲE entre</hi> PASQUIN &amp; MARFORIO <hi>sur les affaires du tems.</hi>
+            </p>
+            <p>
+               <hi>
+                  <gap reason="illegible: blotted" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ou<gap reason="illegible: blotted" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>te la copie imprimée</hi>
+            </p>
+            <p>A LONDRES, <gap reason="illegible: in gutter" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hez ABRAHAM SCOTT. 1690.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:103294:2"/>
+            <pb n="3" facs="tcp:103294:2"/>
+            <head>PREFACE.</head>
+            <p>LƲCIEN prit autrefois la matiere de ses Satyres sça<g ref="char:EOLhyphen"/>vantes &amp; agreables dans les dé<g ref="char:EOLhyphen"/>fauts &amp; les impertinences qu'on attribuoit aux Dieux de sontems, il les a joüez avec tant d'esprit, que la finesse de ses Dialogues les a défendus de l'injure des tems. Ils ont passé jusqu'à nous comme autant de bijoux precieux de l'An<g ref="char:EOLhyphen"/>tiquité, dont la raillerie nous in<g ref="char:EOLhyphen"/>struit &amp; nous fait voir que le Ridicule dans lequel on peint le vice, ne nous inspire pas moins d'aversion que les leçons serieuses d'un grave Philosophe à front ridé, qui ne songe qu'à nous en
+<pb n="4" facs="tcp:103294:3"/>donner de l'horreur.</p>
+            <p>C'est ce qui a fait imaginer à l'Autheur ces petits Dialogues, dont le sel tâche d'imiter celuy de la prose satyrique de Lucien. Tous deux ont mis de grands Acteurs sur la Scéne, l'un les Dieux de l'antiquité, &amp; l'autre les Dieux modernes de la Terre: Mais Lu<g ref="char:EOLhyphen"/>cien a renfermé sa Satyre dans la seule morale populaire, au lieu que celuy-cy sous le voile d'une badinerie plaisante envelope les secrets de la plus profonde Poli<g ref="char:EOLhyphen"/>tique du siecle, &amp; penetre les ressorts qui ont donne à l'Europe une si terrible secousse.</p>
+            <p>Ce n'est pas la seule difference qui resulte de leurs ouvrages, puisque
+<pb n="5" facs="tcp:103294:3"/>Lucien semble par tout avoir pris plaisir à faire connoître qu'il avoit peu de Religion, au lieu que l'Au<g ref="char:EOLhyphen"/>theur de ces Dialogues fait regner dans tout ce qu'il éerit un zele pur &amp; sincere pour la vraye Religion &amp; pour la Justice.</p>
+            <p>L'on a veu déja cinq Dialo<g ref="char:EOLhyphen"/>gues du méme Autheur sous les noms cy-aprés.</p>
+            <list>
+               <item>Le Premier. Le Cibisme, ou Pasquin Politique.</item>
+               <item>Le <hi>2.</hi> Le Bal de l'Europe.</item>
+               <item>Le <hi>3.</hi> Le Couronnement de Guillemot.</item>
+               <item>Le <hi>4.</hi> Le Festin de Guillemot.</item>
+               <item>Le <hi>5.</hi> La Chambre des Comptes d'Innocent XI.</item>
+               <item>Le <hi>6.</hi> La Bibliotheque d'Ox<g ref="char:EOLhyphen"/>fort,
+<pb n="6" facs="tcp:103294:4"/>qui fait le commen<g ref="char:EOLhyphen"/>cement de l'Année <hi>1690.</hi>
+               </item>
+            </list>
+            <p>Châque Dialogue que l'on di<g ref="char:EOLhyphen"/>stribuera par châque mois, aura encor son tître particulier pour les distinguer les uns des autres, en sorte qu'ils puissent estre entre eux comme des freres qui ont quelques traits semblables, &amp; quelques chose aussi qui les di<g ref="char:EOLhyphen"/>stingue; &amp; la matiere qu'on y traitera sera toûjours prises des principaux evenemens du mois precedent.</p>
+         </div>
+         <div type="list_of_books">
+            <pb n="7" facs="tcp:103294:4"/>
+            <head>CATALOGƲE DES LIVRES de la Bibliotheque d'Oxfort.</head>
+            <list>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 1. NOuvelle Inter<g ref="char:EOLhyphen"/>pretation du 3-Commandement du Decalogue, in folio 2. volumes relieure de Holande.</item>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 2. Le Paneau des Evé<g ref="char:EOLhyphen"/>ques, dedié au Clergé d'Angleterre, fol-relié à la Calviniste.</item>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 3. La Capilotade, ou la Religion au jus d'O<g ref="char:EOLhyphen"/>range, dediée à l'Ar<g ref="char:EOLhyphen"/>chevéque de Cantorbe<g ref="char:EOLhyphen"/>ry, f<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>imp. à Ausbourg.</item>
+               <pb n="8" facs="tcp:103294:5"/>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 4. Traité de l'inutilité de la Patenostre, in 12. 2. vol. en blanc.</item>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 5. Le Cavesson des My<g ref="char:EOLhyphen"/>lords, dedié au M. de Schomberg, fol. 2 vol. relié en peau de boeuf.</item>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 6. Les Guilledins, com<g ref="char:EOLhyphen"/>posé par le Fils de Schomberg, in 12. re<g ref="char:EOLhyphen"/>lié en veau fauve.</item>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 7. La Sourissiere des Communes, fol. 4. vol. couleur d'Orange.</item>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 8. Histoire de la Con<g ref="char:EOLhyphen"/>vention Guillemine, baptisée du nom de Parlement, dediée à la
+<pb n="9" facs="tcp:103294:5"/>memoire de Cromvvel fol. 2. vol. reliez à la nouvelle mode.</item>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 9. Le Suc d'Orange, in 12. petit vol. en feüil<g ref="char:EOLhyphen"/>les volantes.</item>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 10. La Béveuc Suedoise, in 4. 3. vol. relieure de Dannemarc.</item>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 11. Le Catéchisme de Cromvvel, dedié au Prince d'Orange.</item>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 12. Obseques, Convoy, Enterrement &amp; Orai<g ref="char:EOLhyphen"/>son funebre de l'Episco<g ref="char:EOLhyphen"/>pat, composé par Ha<g ref="char:EOLhyphen"/>milton &amp; imprimé à Edimbourg.</item>
+               <pb n="10" facs="tcp:103294:6"/>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 13. Traité des Bienfaits de Seneque, dedié aux Mylords d'Angleterre en petit vol.</item>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 14. Traité de l'Empire de la Mer, relié d'écail<g ref="char:EOLhyphen"/>les de Tortuë.</item>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 15. Le nouveau crime d'Etat, in fol. imprimé par les soins d'Halifax.</item>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 16. L'Inventaire de la Toilette &amp; Bagage de la nouvelle Reine d'Espagne, le tout plié dans un chausson, pour la commodité du voyage, &amp; recom<g ref="char:EOLhyphen"/>mandé en toute assû<g ref="char:EOLhyphen"/>rance
+<pb n="11" facs="tcp:103294:6"/>au Roy Guille<g ref="char:EOLhyphen"/>mot, ou à la Lezine de Mansfelt nouveau Fermier general.</item>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 17. L'Explication de deux Quatrains des Centuries de Nostra<g ref="char:EOLhyphen"/>damus, par le Pro<g ref="char:EOLhyphen"/>phéte Jurieu.</item>
+               <item>
+                  <hi>N<seg rend="sup">o</seg>
+                  </hi> 18. Les Intrigues amou<g ref="char:EOLhyphen"/>reuses de la derniere Conspiration d'An<g ref="char:EOLhyphen"/>gleterre.</item>
+            </list>
+         </div>
+         <div type="epigraph">
+            <pb facs="tcp:103294:7"/>
+            <q>
+               <l>Ridendo dicere verum</l>
+               <l>Nil vetat.</l>
+               <l>Ʋtile dulci.</l>
+            </q>
+         </div>
+      </front>
+      <body>
+         <div type="dialogue">
+            <pb n="13" facs="tcp:103294:7"/>
+            <head>LA BIBLIOTHEQUE D'OXFORT.</head>
+            <head>SIXIÈME DIALOGƲE entre <hi>PASQUIN &amp; MARFORIO</hi> sur les affaires du tems.</head>
+            <sp>
+               <speaker>PASQUIN.</speaker>
+               <p>
+                  <hi>ALlegrezza, Allegrezza,</hi> compere Marforio, <hi>grande Politico.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>MARFORIO.</speaker>
+               <p>Te voyla bien joyeux Pasquin, qu'as<g ref="char:EOLhyphen"/>tu tant à crier allegresse.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>
+                  <hi>Allegrezza: per un Papa cat<g ref="char:EOLhyphen"/>tivo habbiamo Ottoboni.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Tu chante allegresse à cause de l'Election du Pape Ottoboni, on en fait de même en France, dans l'espertance qu<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> le S. Esprit nous ait donné un homme qui ait les intentions dirigées à reparer les
+<pb n="14" facs="tcp:103294:8"/>fautes de son Predecesseur Innocent XI.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Ils fontfort bien: car du vivant du bon homme Innocent, quiconque n'é<g ref="char:EOLhyphen"/>toit pas dails les sentimens de Cazzoni; dont les Lunettes favorisoient les interéts de l'Ufurpateur d Angleterre &amp; route la Ligue d'Au<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>bourg, il riai<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oit de Franccois tous ceux qui n'y pouvoient voir clair, &amp; par consequent pire que des Tures dans l'esprit de fes Ministres; c'ost pourquoy je chante depuis l'Election d Ottobon, <hi>alle<g ref="char:EOLhyphen"/>grezza, allegrezza</hi> pour le bien des Fran<g ref="char:EOLhyphen"/>ccois &amp; la paix de l'Europe.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>
+                  <hi>Voi dire bene.</hi> O<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>oboni, qui veut dire en Franccois <hi>huit fois bon.</hi> J'en<g ref="char:EOLhyphen"/>tre dans ton sentiment, &amp; l'on m'en a salt son portrait, comme d'an homme doux, affable, &amp; grand Politique, qui fera volontiers son possible pour le Roy Jaques, &amp; qui aidera au Roy 'de France pour l'heureux succez de ses bons desseins, &amp; tiendra bonne correspondance avec luy. Mais il est bien vieux, &amp; a trois neveux a placer.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>A quoy pe<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>sse-tu, Marforio, &amp; ou ta reverie pousse - t'elle ta Politi<g ref="char:EOLhyphen"/>que? Crois - tu quill ne quittera pas ses interests &amp; ceu<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> de sa Famille, pout
+<pb n="15" facs="tcp:103294:8"/>participor à la gloi<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e de nôtie Alexandre, qui met toutes ses forces pour remettre le Roy d'Angleterre sur son Trône. <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>'es<g ref="char:EOLhyphen"/>pere qu'il n'epargnera rien pour une ceu<g ref="char:EOLhyphen"/>vre si pieuse, &amp; aux intentions de l'unique Protecteur de la vraye Religion.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>C'est ce que nous devons es<g ref="char:EOLhyphen"/>perer. <hi>Ma quel ché mi da cordoglio,</hi> est de voir que tour plie en Angleterre sous la puissance de l'usurpateur, &amp; qu'on ne voit encore aucune aparence de repentir dans l'esprit de ces rebelles; &amp; que l'Em<g ref="char:EOLhyphen"/>pereur &amp; le Roy d<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>Espagne souffrent en<g ref="char:EOLhyphen"/>vahir cette Couronne.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Mais en parlant de ces rebelles d'Angleterre: Dis-moy, as tu vû la Re<g ref="char:EOLhyphen"/>lation de la visite que Guillemot a ren<g ref="char:EOLhyphen"/>duë à une des Universitez, &amp; les hon<g ref="char:EOLhyphen"/>neurs qu'il y a <gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ccûs.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Cela ne m'a point surpris, car si la principale Noblesse de l'Etat qui natu<g ref="char:EOLhyphen"/>rellement doit avoit plus de coeur &amp; de resolution que des Pédans confits dans l'oisiveté des Livres, n'ose pas résister au torrent de la rebellion qui l'entraîne, veux tu que des piépla<gap reason="illegible: faint" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s ayent le courage d'un A<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>chevéque de Cantorbery Ne sais<g ref="char:EOLhyphen"/>tu pas que ces sortes de gens sont ordi<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>irement
+<pb n="16" facs="tcp:103294:9"/>les boutefeux de la revolte? Te souviens tu du tems que la France étoit oprimée par la faction des Bourguignons, &amp; par les armes des Anglois, avec quelle <gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>reur les supôts de l'Université ne sou<g ref="char:EOLhyphen"/>tenoient-ils point le party contraire à ce<g ref="char:EOLhyphen"/>luy de la Justice &amp; du Roy, &amp; la Ligue Goiz de ne prenoit elle passes trompettes lesplu seditieuses parmices sortes d'esprits mercenaires, ainsi ne t'étonne point si une Université Angloise a fait à cet Usur<g ref="char:EOLhyphen"/>pateur tous les honneurs qu'elle ne doit qu'à son légitime Monarque, &amp; dont j'ay vû la relation.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Mais tu n'y as peut-estre pas apris le principal incident du Regal qu'il receu.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Et quel est-il.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>C'est qu'en attendant le disné, Messieurs. les Pédans conduisirent Guille<g ref="char:EOLhyphen"/>mot dans cette fameuse &amp; superbe Biblio<g ref="char:EOLhyphen"/>téque que les liberalitez de plusieurs Rois ont renduë l<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>une des plus complettes &amp; des plus magnifiques de l'Europe, Guille<g ref="char:EOLhyphen"/>mot y considera avec beaucoup de silence &amp; d'attention la beauté &amp; la clarté du somptueux édifice, l'ordre, la disposition, &amp; l'embelissement des tablettes remplies
+<pb n="17" facs="tcp:103294:9"/>d'une infinité de volumes tant imprimez que manuscrits, les pûpitres doubles avec leurs tables, siéges &amp; commoditez pour les étudians, &amp; placez vis-à-vis de châque croizée, les peintures sccavantes dont la voûte est enrichie, les sentences graves tirées de tous les grands Autheurs, &amp; en toute sorte de langues, qui font en let<g ref="char:EOLhyphen"/>tres d'or l'ornement d'une frise qui regne tout le long de cette galerie. Les Globes, les instrumens de Mathematique, &amp; un nombre prodigieux d'autres instrumens qui servent aux experiences physiques &amp; mé<g ref="char:EOLhyphen"/>chaniques, &amp; qui sont étalez avec un merveilleux artifice dans les intervalles qui separent les pûpitres, &amp; enfin dans le fond un Horloge composé avec tant d'art, qu'un seul ressort remuë &amp; fait decouvrir en trois endroits differens avec une justesse parfaite le cours de tous les Astres suivant les trois differens systémes, soit par les Epicycles, suivant celui de Prolomée, soit par le mouvement de la Terre &amp; l'immobi<g ref="char:EOLhyphen"/>lité du Soleil, suivant celui de Copernic, soit par la stabilité de cette méme Terre qui ne sert de centre qu'aux deux lumi<g ref="char:EOLhyphen"/>naires, &amp; par le mouvement des cinq au<g ref="char:EOLhyphen"/>t<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>es Planettes qui roulent autour du So<g ref="char:EOLhyphen"/>lell,
+<pb n="18" facs="tcp:103294:10"/>suivant l hypothese de Tycho Brahé.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>A t'entendre parler nôtre Bi<g ref="char:EOLhyphen"/>b<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>otéque du Vatican n'est pas plus belle que celle-là, pourveu que les Livres ré<g ref="char:EOLhyphen"/>pondent à la boiste qui les enferme.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>C'est de quoy je te veux parler: Aprés que Guillemot eust assez promené ses regards taciturnes sur le prodigieux am s des Livres qu'on y voyoit, &amp; qu'il eust attentivement consideré la disposition generale &amp; particuliere de cet édisice, le Maître Pedant le fit arrêter proche de l'extremité des Tablettes, où il luy en fit voir une petite toute de bois de Cédre, travaillée d'une seulpture delicate &amp; rem<g ref="char:EOLhyphen"/>plie de nouveaux Livres curieux que les supôts de l'Université avoient composez à la loüange de ce Tyran, &amp; done elle vou<g ref="char:EOLhyphen"/>loit lui faire un present digne de luy &amp; digne d'elle.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>L'on ne peut pas une galante<g ref="char:EOLhyphen"/>rie pédantesque, ny plus ingeniense, ny plus de saison. Tous ces Livres ne pou<g ref="char:EOLhyphen"/>voient estre que fort curieux, puisqu'ils aveient pour matiere les vertus, les gran<g ref="char:EOLhyphen"/>des actions, la vie h<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ioique, &amp; la conduire de Guillemot, &amp; j'autois une grande de<g ref="char:EOLhyphen"/>marsgea<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>on apsendre <gap reason="illegible" resp="#keyers" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> les titres
+<pb n="19" facs="tcp:103294:10"/>de ces beaux Livres pour concevoir en gros ce qu'ils traitent.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ</speaker>
+               <p>Je te le diray fort volontiers, car j'en ay le Catalogue &amp; les Sommaires.</p>
+               <p>MARF Je me persuade que la Biblioté que de S. Victor inventoriée par le vifionaire Rablais, n'a rien qui aproche de celle-cy.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Le premier Livre qui s'offroit à la veuë étoit intitulé, <hi>Nouvello Interpre<g ref="char:EOLhyphen"/>tation du troisiéme Commandement du De<g ref="char:EOLhyphen"/>calogue,</hi> en deux volumes in solio, ou<g ref="char:EOLhyphen"/>vrage merveilleux composé par le R. Pero <hi>Antipater</hi> Superieur de l'Ordre des <hi>Absa<g ref="char:EOLhyphen"/>lenites,</hi> &amp; dedié à la tres-pieuse Reine Guillemette.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Ce titre me fait concevoir que ce Livre contenoir quelque chose de fort curieux touchant le respect qui est deu à ceux qui nous ont donné la vie.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>L'Autheur y refutoi<gap reason="illegible: faint" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> par une infinité de raisons surnaturelles la vieille erreur des bonnes gens du tems passé, qui s'amusoient à honorer pere &amp; mere, sur des promesses dont l'évenement est incer<g ref="char:EOLhyphen"/>tain: il y traitoit de conte de la Cicogne la pieté qu'on attribuë à cet oiseau, &amp; montroit par les vertueux exemples de Tarquin, de Neron, de Phraarte, de Selim,
+<pb n="20" facs="tcp:103294:11"/>&amp; de Guillemot, que le corps d'un Pere ou d'un Beaupere est un agreable degré pour monter au Thrône, &amp; qui ne sçait pas passer sur le ventre à la nature, ne merite pas d'arriver au Palais de la fortune.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Je ne m'étonne plus si l'Au<g ref="char:EOLhyphen"/>theur a dedié son Livre à la pieuse Guil<g ref="char:EOLhyphen"/>lemette, il ne pouvoit mieux-choisir, &amp; cette nouvelle Tullie qui par son attentat parricide s'est renduë le modéle achevé des bonnes filles, est tres-digne d'une dedi<g ref="char:EOLhyphen"/>cace de cette nature.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Sur la fin de ce Livre l'Autheur par une espece d appendix avoit ajoûté une Paraphrase sur le Vers d Ovide, <hi>Non socer à genero;</hi> le traité en étoit court &amp; vif, &amp; contenoit une espece d'abregé de toutes les maximes propres à étoufer les sentimens importuns de la nature &amp; du deveir; châque article apostrophoit avec justesse le <gap reason="illegible" resp="#keyers" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>y Guillemot, &amp; faisoit voir que jamais homme n'a mieux que luy com<g ref="char:EOLhyphen"/>pris &amp; mis en pratique toutes ces maximes pour monter avec un front d'airain sur un Thrône perfidement ènvahy.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Je voudrois bien sçavoir ce que diroit l'Empereur, si sous pretexte qu'il est, comme on scait, plus propre à composer
+<pb n="21" facs="tcp:103294:11"/>
+                  <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n motet en musique, qu à ranger une Armée en bataille, le Duc de Baviere son gendte corrompoit les Electeurs pour le déthrôner: l'attentat seroit sans doute moins criminel, car l'Empire étant électis ceux qui ont fait l'Empereur pouroient pretendre avoir droit de le faire, comme il arriva d'Adolphe de Nassau en faveur d'Albert d'Austriche; que diroit, dis-je, l'Empereur, &amp; aprouveroit-il dans son gendre le crime qu'il apuye dans le gen<g ref="char:EOLhyphen"/>dre du Roy Jacques.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ</speaker>
+               <p>Laissons-là toutes ces compa<g ref="char:EOLhyphen"/>raisons quelques justes qu'elles soient, l'on sçait bien que tout Monarque qui a la lâcheté d'apuyer un Usurpateur se rend luy même indigne de porter la Couronne, &amp; merite qu on luy rende la pareille: cela poura peut être arriver à l'Empereur plû<g ref="char:EOLhyphen"/>tôt qu'il ne croit, &amp; sice n'est pour l Em<g ref="char:EOLhyphen"/>pire, ce sera tost ou tard pour la Hongrie ou pour la Bohéme: les chiens, comme on dit, ne sont pas dehors de son village, &amp; il n'est pas encor tems qu'il s'en mo<g ref="char:EOLhyphen"/>que: Mais revenons à nôtre Bibliotéque. Le second Livre étoit intitulé <hi>Le Paneau des Evéq<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>es,</hi> il étoit en trois gros volumes, composé par le fanatique Burner, imprimé
+<pb n="22" facs="tcp:103294:12"/>en Holande &amp; dedié au Clergé d'An<g ref="char:EOLhyphen"/>gleterre.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Ce titre promet beaucoup, &amp; je serois bien curieux de sçavoir quelque chose de ce que le Livre contenoit.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>L'on y expliquoit avec une Rhe<g ref="char:EOLhyphen"/>torique fine les rufes admirables, les ar<g ref="char:EOLhyphen"/>tifices inoüis, &amp; mille tours de souplesse que Guillemot a employez pour conduire insensiblement les sots Evêques á l'anean<g ref="char:EOLhyphen"/>tissement de la Religion Anglicane, pour établir le Presbyteranisme sur le débris de l'Episcopat. L'on y voyoit comme en Ecosse Guillemot avoir levé le masque, tambour battant avoir emporté d'assaur, &amp; terrassé cet Episcopat; mais que n'o<g ref="char:EOLhyphen"/>zant entreprendre tout d'un coup la mê<g ref="char:EOLhyphen"/>me chose en Angleterre, il s'efforçoit d'y arriver par la sappe &amp; par la mine.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Il croit sans doute y arriver par cette union pretenduë des deux Sectes principales qui dominent en Angleterre: mais cette imagination d'unir deux heresies incompatibles, est une vision aussi bi<g ref="char:EOLhyphen"/>zarre &amp; aussi ridicule, qu'il en soit jamais entré dans la teste d'un homme.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>C'étoit le sujet du Livre qui sui<g ref="char:EOLhyphen"/>voit, &amp; portoit pom titre, <hi>La Capilo: a<g ref="char:EOLhyphen"/>de,</hi>
+                  <pb n="23" facs="tcp:103294:12"/>ou, <hi>La Religion au jus dOrange,</hi> Ouvrage du même Auteur, en un seul volume, qu'il avoit dédié à l'Archevê<g ref="char:EOLhyphen"/>que de Cantorbery, dans l'intention de luy persuader qu'il n'est rien de plus aizé que de trouver une compatibilité du blanc &amp; du noir, &amp; que de deux poisons opo<g ref="char:EOLhyphen"/>sez l'on peut en composer une medecine salutaire. Il prouve par les mêmes raisons, que dans un besoin il viendroit à bout de faire une galimafrée de la Bible &amp; de l'Alcoran; &amp; conclut qu'il espere relle<g ref="char:EOLhyphen"/>ment confondre les dogmes des deux Re<g ref="char:EOLhyphen"/>ligions, que le nom de Calvinistes &amp; de Lutheriens, de Presbyteriens &amp; d'Episco<g ref="char:EOLhyphen"/>paux étant aboli, l'Angleterre n'aura plus que des <hi>Oraengistes,</hi> qui feront de leur Foy comme le Docteur de la Comedie Ita<g ref="char:EOLhyphen"/>lienne fait de son chapeau, qu'il plie &amp; met en telle figure qu'il luy plait.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Il en seroit de cette Religion couleur d'Orange, comme de l'Ordre des Nonnes <hi>Thelemites,</hi> que Panurge voulort instituer, dont toute la Regle con<g ref="char:EOLhyphen"/>sistoit en un seul mot, <hi>Fais ce que tu vou<g ref="char:EOLhyphen"/>dras;</hi> &amp; la Foy des Orangistes <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e consiste<g ref="char:EOLhyphen"/>roit qu'en ce Precepte unique, <hi>Croy ce qu'il te plaira,</hi> Figure, Impanation, Ab<g ref="char:EOLhyphen"/>sence,
+<pb n="24" facs="tcp:103294:13"/>Presence, Predestination ante<g ref="char:EOLhyphen"/>rieure ou posterieure à la prévision Hie<g ref="char:EOLhyphen"/>rarchie, Independance: tout sera bon pour en faire cette Capilotade, pourveu qu'on revere le Prophete Guillemot. Mais est-ce le fait d'un Politique de se mettre en teste de se rendre Chef d'une nouvelle Secte de Religion; &amp; Guillemot n'a-t'il pas assez d'autres noisettes à éplucher.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Ne sçais-tu pas bien que la quintessence de l'ambition, &amp; celle qui chatoüille avec plus de vivacite l'esprit de l'homme, c'est le desir orgueilleux de se rendre l'Auteur d'un changement de Re<g ref="char:EOLhyphen"/>ligion. La Couronne, tou<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e brillante qu'elle est, n'a pas d'attraits qui appro<g ref="char:EOLhyphen"/>chent de ce chatoüillement: parce que l'esprit de l'homme ne pouvant estre rem<g ref="char:EOLhyphen"/>pli ni satisfait de tout ce que contient la terre, il cherche à s'élever au dessus de ce qui est perissable; &amp; dans sa vanité aveugle il croit entrer dans la participa<g ref="char:EOLhyphen"/>tion de la divinité, &amp; se tirer de la condi<g ref="char:EOLhyphen"/>tion humaine, s'il peut s'aquerir l'auto<g ref="char:EOLhyphen"/>rité de faire ce qui n'apartient qu'à Dieu, qui est de prescrire des Loix pour la Reli<g ref="char:EOLhyphen"/>gion, dont la Majesté attire bien d'autres respects que toute la grandeur humaine.
+<pb n="25" facs="tcp:103294:13"/>C'est pour cela qu'il n'y eut jamais d'He<g ref="char:EOLhyphen"/>resiarque, qui sous le voile d'un exterieur hypocrite n'ait été devoré d'une furieuse ambition secrete; &amp; comme Guillemot a l'ame la plus ambitieuse qui fut jamais, quoiqu'il n'ait aucune Religion, il ne se contente pas de l'usurpation d'un Trône, mais il veut joindre le nom de Chef de Secte à celuy de Tyran. Et parce qu'il a lû dans son Machiavel que tous les Pro<g ref="char:EOLhyphen"/>phetes armez se sont fait croire, témoin Mahomet: il s'imagine estre assez puissam<g ref="char:EOLhyphen"/>ment armé pour établir sa Religion <hi>Or<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n<g ref="char:EOLhyphen"/>gée</hi> par cette pretenduë union de deux He<g ref="char:EOLhyphen"/>resies oposées; &amp; que pour se faire <hi>Oran<g ref="char:EOLhyphen"/>gistes,</hi> tous les Protestans quitteront les noms des Sectes differentes qui les distin<g ref="char:EOLhyphen"/>guent. Mais je tiens qu'il entreprend une chose absolument impossible.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Veux-tu que je te dise ma pensée? Dieu a défendu d'atteler le boeuf &amp; l'asne à la même charruë, &amp; j'estime le projet de cette union une vision extrava<g ref="char:EOLhyphen"/>gante, qui ne serviroit qu à former en An<g ref="char:EOLhyphen"/>gleterre un tiers parti entre les Presbyte<g ref="char:EOLhyphen"/>riens &amp; les Episcopaux &amp; par consequent multiplier les Sectes, fournir matiere de nouveaux troubles, &amp; avancer la ruine
+<pb n="26" facs="tcp:103294:14"/>du Tyran. Ne croy donc pas que le but de Guillemot soit d'unir les deux Reli<g ref="char:EOLhyphen"/>gions; il n'en a point d'autre que d'a<g ref="char:EOLhyphen"/>bolir l'Episcopat, &amp; d'y arriver insensi<g ref="char:EOLhyphen"/>blement par certe pretenduë union qui ne peut jamais réussir ni fubsister.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Burnet avoit mis à la teste de ce Livre en forme de préliminaire un pe<g ref="char:EOLhyphen"/>tit Traité intitulé <hi>De l'inutilité de la Pa<g ref="char:EOLhyphen"/>tenostre.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>C'est à dire que ce petit Ou<g ref="char:EOLhyphen"/>vrage renfermoit toutes les belles raisons qui ont fait retrancher de la Liturgie la f<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>equente repetition de la plus sainte de toutes les prieres, &amp; sur laquelle on ne peut assez mediter, ni la trop dire.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>A la fuite de ce Livre on en voyoit un autre qui portoit pour titre, <hi>Le Cavesson des Mylors:</hi> Cétoit un gros volume travaillé dans la forge &amp; sur l'en<g ref="char:EOLhyphen"/>clume d'un certain vieux Matéchal, nom<g ref="char:EOLhyphen"/>mé <hi>Schombergus.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>De quoy traitoit ce Livre?</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Ne le comprens-tu pas; &amp; Schomberg à la teste des Troupes Etran<g ref="char:EOLhyphen"/>geres que Guillemot a fait passer en An<g ref="char:EOLhyphen"/>gleterre, n'a-r'il pas mis la boucle au nez a tous les <hi>Guilledins?</hi> Ce Livre contenoit
+<pb n="27" facs="tcp:103294:14"/>quantité de leçons que ce vieux Renard pedagogue donne à son disciple pour bien brider &amp; cavessonner les Anglois, il luy fait concevoir que c'est la Nation la plus perside &amp; la plus inconstante du monde, toûjours impatiente de l'état present, desi<g ref="char:EOLhyphen"/>reuse de nouveautez, ennemie perpetuelle de son Maître, &amp; ne respirant que la ré<g ref="char:EOLhyphen"/>volte, qu'il est impossible de s'en assûrer que par le frein d'une force étrangere superieure, &amp; que pour cet effet il est ne<g ref="char:EOLhyphen"/>cessaire de remplir l'Angleterre de Ho<g ref="char:EOLhyphen"/>landois, de François fugitifs, de Danois &amp; d'Allemans, &amp; d'envoyer en même tems hors des Isles toutes les Troupes An<g ref="char:EOLhyphen"/>gloises; que parcette politique il se dōnera un pouvoir également arbitraire sur la Ho<g ref="char:EOLhyphen"/>lande &amp; sur l'Angleterre, afoiblissant l'une &amp; l'autre par la soustraction de leurs pro<g ref="char:EOLhyphen"/>pres forces, &amp; les domtant réciproque<g ref="char:EOLhyphen"/>ment par elles-mêmes. A prés ces maximes generales il entroit dans le détail particu<g ref="char:EOLhyphen"/>lier des moyens pour arriver à ce plein pou<g ref="char:EOLhyphen"/>voir arbitraire qui est son but, &amp; finissoit en le conjurant de ne jamais prendre de confiance en aucun Mylord, luy disant que s'ils n'avoient pas pû soûfrir un bon Maître, &amp; s'ils avoient perfidement trahy
+<pb n="28" facs="tcp:103294:15"/>un Roy legitime qui les gouvernoit avec douceur, ils se lasseroient bien-tôt d'un Tyran qui les oprime, &amp; le livreroient pour s'ouvrir un chemin à la reconciliation, en un mot, que si la trahison luy avoit été utile, les traîtres étoient toûjours dangereux.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Je trouve ce livre fort impor<g ref="char:EOLhyphen"/>tant, aussi l'Autheur est-il un habile hom<g ref="char:EOLhyphen"/>me, &amp; c'est dommage que sur la fin de ses jours il ayt souillé la gloire d'une vie presque achevée en commettant une action aussi derestable qu'est celle de s'étre rendu le principal instrument du plus abomi<g ref="char:EOLhyphen"/>nable de tous les forfaits. Aussi Dieu ne benit-il gueres ses Armes comme on le voir par la cagade d Irlande.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Immediatement aprés ce Livre on en avoit placé un autre fort divertissant &amp; fort ample intitulé, <hi>La Sourissiere des Communes,</hi> en quatre grands volumes, ouvrage sublime, composé par le pilorié Titus Oats Il y fait voir article par ar<g ref="char:EOLhyphen"/>ticle de quelle maniere pas à pas les pau<g ref="char:EOLhyphen"/>vres petites <hi>Smithes</hi> Angloises, je veux dire les Communes, se sont laisse prendre dans la Sourissiere de Guillemot qui ne les lâchera pas que de leur peau il ne se soit
+<pb n="29" facs="tcp:103294:15"/>fait une fourure de petit gris à son just<g ref="char:EOLhyphen"/>aucorps.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Si les Communes sont assez sottes pour accorder à cet Usurpateur tous les deniers dōt ila besoin pour soûtenir son invasion &amp; les deux guerres qu'il a sur les bras, tant au dehors qu'au dedans; il ne restera gueres d'Anglois dont il ne fasse an Marsyas, &amp; qui ne demeure écorché jus<g ref="char:EOLhyphen"/>qu'au vif. Car quelques sommes qu'il ait déja exigées, ce ne sont que de fleure<g ref="char:EOLhyphen"/>tes: plus il ira en avant, plus il verra croitre ses besoins &amp; sa pauvreté, puis<g ref="char:EOLhyphen"/>qu'il doit déja des millions immenses, tant aux Holandois, qu'à ceux qui dans Londres ont été assez dupes pour avancer des deniers sur sa bonne foy.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>J'avoüe qu'avancer de l'argent à un Tyran mal affermi sur le Thrône qu il vient d'usurper, c'est asseoir une bypoteque sur une planche pourrie; &amp; telles avances sont en grand danger, soit que ce Tyran perisse, comme aparem<g ref="char:EOLhyphen"/>ment il ne l'évitera pas, soit qu'un de ces jours il fasse un trou à la Lune, s'il en a le loisir, lorsqu'il se verra dans l'im<g ref="char:EOLhyphen"/>puissance de se soûtenir, &amp; de s'acqui<g ref="char:EOLhyphen"/>ter.</p>
+            </sp>
+            <sp>
+               <pb n="30" facs="tcp:103294:16"/>
+               <speaker>MARF.</speaker>
+               <p>Dans la premiere fougue d'u<g ref="char:EOLhyphen"/>ne rebellion, un peuple emporté de sa passion ouvre sa bourse en faveur de l'I<g ref="char:EOLhyphen"/>dole qu'il adore; mais si-tost que le pre<g ref="char:EOLhyphen"/>mier feu est amorti, l'on commence à reflechir, &amp; à sonder la profondeur de l'abîme où l'on s'est jetté; &amp; sur tout les Anglois, qui sont aussi lents à donner de l'argent, qu'ils sont promts à se revolter. Je crois qu'il na pas mal à suer pour éta<g ref="char:EOLhyphen"/>blir les fonds de la Campagne prochaine.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>On dit que les Communes luy destinent deux millions de livres sterlin.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>C'est beaucoup, &amp; ce n'est pas pour payer ce qu'il doit: mais il ne suffit pas de les ordonner, il faut les le<g ref="char:EOLhyphen"/>ver. Cependant je trouve le titre de ce Livre fort plaisant, &amp; voudrois bien sça<g ref="char:EOLhyphen"/>voir quelle tournure Oats luy avoit don<g ref="char:EOLhyphen"/>née.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Le premier voulume traite des humeurs &amp; complexions de ces malheu<g ref="char:EOLhyphen"/>reuses <hi>Smithes.</hi> Le 2. contient le recit de tous les apas artificieux avec lesquels ce matois les a fait donner dans le piége. Le 3. fait un merveilleux éloge de tous les agré<g ref="char:EOLhyphen"/>mens de leur captivité: &amp; le dernier dé<g ref="char:EOLhyphen"/>couvre les moyens de les empêcher de s'é<g ref="char:EOLhyphen"/>chaper
+<pb n="31" facs="tcp:103294:16"/>de la sourissiere. Voila ce que ce Livre contenoit: &amp; celuy qui le suivoit avoit pour titre, <hi>Histoire de la Conven<g ref="char:EOLhyphen"/>tion Guillemine, baptisée du nom de Par<g ref="char:EOLhyphen"/>lement,</hi> dédiée à la mémoire <hi>of his ignesse Mylord Protector.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>C'est à dire à la mémoire de Cromvvel: si cette Histoire contient le détail de tous les violemens que cette abo<g ref="char:EOLhyphen"/>minable Convention a faits aux Loix les plus sacrées, elle sera bien ample.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Elle ne contenoit que deux volumes, &amp; l'on y montroit que cōme des cendres de l'oison qui fut rosty au Concile de Constance, on vit cent ans aprés ressus<g ref="char:EOLhyphen"/>citer Luther; aussi des cendres du Parle<g ref="char:EOLhyphen"/>ment <hi>Cromvellin</hi> est née au bout de qua<g ref="char:EOLhyphen"/>rante ans la Convention <hi>Guillemine,</hi> qui ne luy cede ni en audace ni en forfaits.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>La matiere est bien feconde, &amp; si peu que l'Auteur soit habile hom<g ref="char:EOLhyphen"/>me, il doit avoir écrit de belles choses: mais poursuis, &amp; dis-moy quels autres Livres remplissoient cette tablette.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Derriere ce Livre on avoit ca<g ref="char:EOLhyphen"/>thé un petit in douze à mettre à la poche, qui ne se debite que secretement &amp; sous le manteau: il est intitulé, <hi>Le Suc d'O<g ref="char:EOLhyphen"/>range</hi>
+                  <pb n="32" facs="tcp:103294:17"/>composé par un Officier de Som<g ref="char:EOLhyphen"/>melerie du Roy Guillemor.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>De quoy traite t'il?</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>De differentes morts arrivées inopinément. Dabord on y voit comme Dom Carlos ayant une jeune femme qu'il aimoit tendrement, &amp; qui se portoit par<g ref="char:EOLhyphen"/>faitement bien, ne laissa pas par les soins d'autruy de devenir en peu d'heures veuf, afin qu'il pût troquer un manteau Royal femé de fleurs de lys contre une pauvre chétive Palatine de Neufbourg. On y voyoit un Chancelier Jeffreys, qui dans la Tour mange à une fine sauce le mets Néronien; &amp; d'un autre côté on voyoit l'assaisonnement délicat d'un Bolus de fine épice renvoyé jusqu'au Royaume de Siam, par le moyen duquel son Monarque In<g ref="char:EOLhyphen"/>dien a trouvé un parfait soulagement à tous les maux qui traversent cette vie mal<g ref="char:EOLhyphen"/>heureuse, &amp; s'en est allé voir si par mé<g ref="char:EOLhyphen"/>tempsycose son ame entrera dans le corps de son Elephant blanc. Toutes ces petites historiettes, &amp; quantité d'autres moins publiques étoient contenuës dans ce Trai<g ref="char:EOLhyphen"/>té du <hi>Suc d'Orange.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>La peste quel suc! Le Catho<g ref="char:EOLhyphen"/>licon double d'Espagne, que Philippe II.
+<pb n="33" facs="tcp:103294:17"/>avoit si bien mis en vogue, ne donna pas des coliques plus efficaces à Dom Juan, au Duc de Parme, &amp; à quantité d'autres que jeux taire.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Contre ce Livre on en voyoit un autre qui portoit pour titre, <hi>La Bévûë Suédoise.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Que diable vouloit-on dire par un titre si extravagant?</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Ce Livre étoit composé sur des Mémoires du feu Chancelier Oxen<g ref="char:EOLhyphen"/>stern Pere du dernier, &amp; celuy qui sous le grand Gustave noüa entre la France &amp; la Suéde l'étroite alliance qui rendit cette Puissance du Nort la terreur de l'Empite.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Et que vouloit-il conclure de là?</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Que le Roy de Suede d'aujour<g ref="char:EOLhyphen"/>d'huy est la dupe de la Ligue d'Ausbourg.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Comment cela?</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Il fait voir que la Suede n'a prosperé que tant qu'elle s'est unie avec la France, que son veritable interest est de s'attacher à cette Couronne, &amp; d'en apuyer la grandeur pour en estre recipro<g ref="char:EOLhyphen"/>quement apuyée contre la puissance de l'Empire qui l'engloutira dés qu'il sera monté à certain point qu il s'efforce d'at<g ref="char:EOLhyphen"/>teindre: mais que si jamais le Roy de Suede
+<pb n="34" facs="tcp:103294:18"/>a deu prendre l'interest de la France, c'est dans la conjoncture presente, afin de dé<g ref="char:EOLhyphen"/>truire le grand projet de la Ligue d Aus<g ref="char:EOLhyphen"/>bourg, &amp; empêcher que l'invasion d'An<g ref="char:EOLhyphen"/>gleterre ne réüssisse, &amp; que le Roy Jaques ne soit déthrôné.</p>
+               <p>MARF Je ne conçois pas l'avantage qu'il auroit à s'oposer au succez du Prince d'Orange, au contraire comme ils sont de même Religion, je crois que le Suedois a interest que le Roy Jacques demeure déthrôné.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Eh laissons-là la Religion. Ne sçais - tu pas bien que pas un Ligueur d'Ausbourg ne veut avoüer que ce soit une Ligue de Religion Interroge l'Empe<g ref="char:EOLhyphen"/>reur, tu verras ce qu'il te répondra: Il ne faut donc icy regarder que l'interest de l<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> tat: or ce Livre fait voir que le Roy de Suéde est une dupe aveugle d'estre en<g ref="char:EOLhyphen"/>tré dans cette Ligue, de soûtenir l'inva<g ref="char:EOLhyphen"/>sion de Guillemot, &amp; d'agir contre la France.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Explique toy plus clairement sur cet interest politique.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Si le Roy Jaques demeure déthrôné &amp; Guillemot possesseur de ses Couronnes, qui est-ce qui luy succedera?
+<pb n="35" facs="tcp:103294:18"/>car d'enfant il n'en aura jamais.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Il est vray que l'horloge de Guillemot n'a point de contrepoids, &amp; qu'à moins de quelque coup de travers, la Tullie ne peut pas luy donner de suc<g ref="char:EOLhyphen"/>cesseur. Ainsi le Prince George de Danne<g ref="char:EOLhyphen"/>mark luy succederoit.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Ah! c'est où je te tiens: Dis<g ref="char:EOLhyphen"/>moy un peu: Quand Guillemot aura af<g ref="char:EOLhyphen"/>fermi son usurpation, &amp; que par sa mort sans enfans il aura laissé la Couronne au Prince George frere du Roy de Danne<g ref="char:EOLhyphen"/>mark, où en sera le Roy de Suéde?</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Je commence à ouvrir les yeux &amp; concevoir que le Roy de Suede ne sçait ce qu'il fait lorsqu'il favorise l'invasion de Guillemot, car comme il y a Guerre im<g ref="char:EOLhyphen"/>mortelle entre la Suede &amp; le Dannemarc, &amp; y sera jusqu'à ce qu'une quenoüille ayt joint leurs Sceptres comme ceux d'Ecosse &amp; d'Angleterre ont été réünis. Il est con<g ref="char:EOLhyphen"/>stant que le Prince George montant sur le Thrône Anglois, la Suede seroit bien tôt écrasée par la puissance de ces deux freres.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Tu vois donc bien <hi>La Béveuë Suedoise,</hi> &amp; que ce Roy se forge des fers &amp; fourbit luy-même l'épée qui le
+<pb n="36" facs="tcp:103294:19"/>percera, en entrant dans les interests de Guillemot &amp; dans les projets de la Ligue d'Ausbourg, &amp; quand il aura sur les bras les Anglois &amp; les Danois unis, Brande<g ref="char:EOLhyphen"/>bourg ne manquera pas encor de s'y join<g ref="char:EOLhyphen"/>dre pour acrocher sa Pomeranie: ainsi pour se garantir d'une ruine qui luy seroit inévitable si Guillemot réüssissoit, ce Roy n'a point d'autre party à prendre que de se détacher de la Ligue d'Ausbourg, &amp; rentrer dans l'alliance glorieuse de la France, qui d'un coup de plume luy a fait rendte sa Pomeranie.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Ce que tu disest incontestable: mais passons à d autres.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Sur la teste de ce Livre on avoit couché un petit in douze intitulé, <hi>Le Catech<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>sme de Cromvel,</hi> dedié à son disciple Guillemot c'est un petit ouvrage excellent, de la composition du Ministre Jurieu, dans lequel on voit toutes les maximes par lesquelles un Tyran arrivé à l'usurpation de l'authorité souveraine peut s'y maintenir. Il montre que l'éleva<g ref="char:EOLhyphen"/>tion d'un ambitieux sur le Thrône est quelquefois un coup du hazard, &amp; que la fortune pour y conduire un temeraire prévient souvent ses esperances, mais
+<pb n="37" facs="tcp:103294:19"/>qu'il est bien plus difficile de s'y cor<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>arver que d y arriver, &amp; que se maintenir dans une place usurpée à la veuë d'un Roy dé<g ref="char:EOLhyphen"/>thrôné, qui vit, &amp; qui a les Armes à la main, &amp; au milieu d'un peuple divisé de sentimens, d'interests &amp; de Religion, c'est un chef d oeuvre presque impossible à la prudence la plus consommée, <hi>Casus inest illic, hoc erit artis opus</hi> Il luy ordonne d'afoiblir la Nation soûmise en luy coupant les nerfs, c'est à dire en luy ostant toutes ses forces domestiques, &amp; l'accablant sous le joug des Armes étrangeres: de faire de grands emprunts dans la bourse des plus riches afin de les engager par leur propre interest à maintenir la Tyrannie: empri<g ref="char:EOLhyphen"/>sonner sur les plus legers indices tous ceux qui se rendent le moins du monde suspects: faite faire aux peuples des démarches si criminelles qu'elles les rendent irreconci<g ref="char:EOLhyphen"/>liables avec leur Roy legitime: éloigner &amp; disperser les Grands sous pretexte d'em<g ref="char:EOLhyphen"/>ploys ruineux, ne leur donner aucun Com<g ref="char:EOLhyphen"/>mandement de Troupes dans l'Etat: ne se fier qu'aux Etrangers, abolir toutes les Loix, en fabriquer de nouvelles, &amp; se servir de la Religion comme d'une sarge à deux envers qui se tourne &amp; retourne
+<pb n="38" facs="tcp:103294:20"/>du <gap reason="illegible" resp="#keyers" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>sté que l'on veut.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Le Cathecumene n'a pas màl profité: car voila justement ce qu'il a fort exactement pratiqué depuis qu'il a envahi le Thrône. Mais poursuivons.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Le premier Livre de la seconde planche avoit un titre fort facetieux: on l'avoit intitulé, <hi>Obs ques, Convoy, En<g ref="char:EOLhyphen"/>terrement, &amp; Oraison funebre de l'Ep<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>sco<g ref="char:EOLhyphen"/>par:</hi> Il étoit en deux gros volumes com<g ref="char:EOLhyphen"/>posez par Mylord Hamilton, &amp; impri<g ref="char:EOLhyphen"/>mez à Edimbourg, avec privilege de l'ho<g ref="char:EOLhyphen"/>norable Conventicule Eco ois On l'avoit aussi dédié à l'Archevêque de Cantor<g ref="char:EOLhyphen"/>bery.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Ce Livre devoit contenir de bonnes choses.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Il est tout-à-la fois divettissant &amp; politique. Ce Mylord qui s'imagine pou<g ref="char:EOLhyphen"/>voir persuader à ce sage &amp; digne Prelat Anglicain de trahir son Eglise &amp; son Roy, comme font beaucoup d'autres de ses Con<g ref="char:EOLhyphen"/>freres, entreprend de luy prouver par quarante-deux sophismes soûtenus de fi<g ref="char:EOLhyphen"/>gures nommées antiphrases, que S. Paul nesçavoit ce qu'il disoit, lorsqu il a écrit aux Evêques d'Asie assemblez à Milet, que le Saint Esprit les avoit établis Evê<g ref="char:EOLhyphen"/>ques
+<pb n="39" facs="tcp:103294:20"/>pour gouverner l'Eglise.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Il me semble que le passage est en ces termes: <hi>Attendite vobis &amp; univer<g ref="char:EOLhyphen"/>so gregi in q<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>o vos Spiritus Sanctus posuit Episcopos regere,</hi> ou comme dit le Grec, <hi>pascere Ecclesiam Dei.</hi> Je voudrois bien scavoir comment aprés un passage si clair &amp; si formel pour justifier que l'Episcopat est établi de Dieu pour le gouvernement de l'Eglise, Calvin a pû avoir assez d'ef<g ref="char:EOLhyphen"/>fronterie pour l'abolir, &amp; pour introdui<g ref="char:EOLhyphen"/>re cette égalité &amp; cette indépendance, dans laquelle pretendent vivre les Presby<g ref="char:EOLhyphen"/>teriens: <hi>Posuit Episcopes regere Ecclesiam Dei.</hi> Ya-t il rien de plus précis, &amp; est-il au pouvoir de l'homme d'abolir ce que Dieu a institué?</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>N'entrons point dans la discus<g ref="char:EOLhyphen"/>sion des dogmes. L'on sçait bien que l'E<g ref="char:EOLhyphen"/>piscopat est d'institution divine, &amp; qu'il faut estre fou &amp; de la derniere impudence, comme étoit Calvin, pour le nier. Cela ne fait rien au recit que je te fais: il suf<g ref="char:EOLhyphen"/>fit que les Episcopaux ont apellé Guille<g ref="char:EOLhyphen"/>mot pour les délivrer, à ce qu'ils disoient, du Papisme; &amp; que Guillemot n<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a pas plûtost été sur le Thrône, qu'il a proscrit en Ecosse l'Episcopat, &amp; apliqué tous ses
+<pb n="40" facs="tcp:103294:21"/>soins à le détruire en Angleterre. Ce Li<g ref="char:EOLhyphen"/>vre étoit suivi d'un autre, qui avoit pour tirre, <hi>Nouvelle Traduction Angloise du Traité des Bienfaits de Seneque.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>C'est un Livre dont la lectu<g ref="char:EOLhyphen"/>re seroit bien necessaire à quantité de Mylors; mais ils n'ont garde d'y mettre le nez, &amp; ce Philosophe leur feroit trop de confusion.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Bon: de la maniere dont il est tourné, ils en font leur Breviaire; &amp; c'est Mylord Curchill qui a fait cette Tradu<g ref="char:EOLhyphen"/>ction, &amp; qui l'a, dédiée au Prince George de Danemark: le Livre est imprimé à Londres, &amp; se vend en la ruë du serpent réchauffé, dont parle le bon homme Eso<g ref="char:EOLhyphen"/>pe. Ce qui est de plus beau dans le Livre, c'est un grand Commentaire que l'Auteur y ajoûte, dans lequel il prouve fort aisé<g ref="char:EOLhyphen"/>ment par son exemple propre, &amp; par ce<g ref="char:EOLhyphen"/>luy de quantité de ses Confreres, que l'in<g ref="char:EOLhyphen"/>gratitude &amp; la perfidie, qui sont deux soears insepatables, sont les deux princi<g ref="char:EOLhyphen"/>pales vertus du Mylorat, &amp; que la re<g ref="char:EOLhyphen"/>connoissance des bienfaits est un pur abus du vieux tems, dont la mode s'est Dieu<g ref="char:EOLhyphen"/>mercy, perduë en Angleterre.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Sçais-tu bien par une raison
+<pb n="41" facs="tcp:103294:21"/>physique &amp; morale pourquoy les Anglois sont naturellement plus ingrats que les autres hommes?</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Non: &amp; je serois bien aize d<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>en aprendre la raison.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>C'est parce que naturell<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ment ils sont plus orgueillcux, &amp; plus amou<g ref="char:EOLhyphen"/>reux de l'indépendance que les autres Na<g ref="char:EOLhyphen"/>tions.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Est ce que <hi>l'Ingratitude</hi> est la: fille de <hi>l'<gap reason="illegible" resp="#keyers" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>rg<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>eil</hi> &amp; de la <hi>
+                     <gap reason="illegible" resp="#keyers" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>berte<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Sans doute. Ne conçois-tu<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>pas que qui i<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>çoit est dans ce moment en quel<g ref="char:EOLhyphen"/>que chose inférieur à celuy qui donne: ainsi l'on<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ne peut témoigner de la grati<g ref="char:EOLhyphen"/>tude &amp; de la reconnoissance d'un bienfait, sans avoüer qu'on l'a reçû, &amp; qu'on en a contracté l'obligation: or cette obliga<g ref="char:EOLhyphen"/>tion est une chaîne qui nous lie, &amp; nous met dans la dépendance de celuy qui nous a obligez; &amp; comme l'orgueil interieur &amp; l'amour naturel qu'on a pour l'indé<g ref="char:EOLhyphen"/>pendance ne peuvent souffrir ce lien &amp; cette soumission d'esprit, cet orgueil &amp; cette liberté enfantent l'ingratitude.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>C'est donc par cette raison que les grands Seigneurs sont ordinaire<g ref="char:EOLhyphen"/>ment plus ingrats que les aurres, &amp; qu'ils
+<pb n="42" facs="tcp:103294:22"/>voyent avec plus de plaisir ceux sur qui ils ont répandu de grandes graces, que ceux qui leur ont rendu de grands services qu'ils n<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t pas payez: mais de ton argument il fau <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>roit conclure que tout homme superbe est ingrat.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Il faut distinguer ce mot équi<g ref="char:EOLhyphen"/>voque: car il y<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a une espece d'orgueil qui est attaché à la vertu, &amp; que nôtre amy H race apelle <hi>superbiam quaesitam meritis:</hi> Celuy-là bien loin d<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>engendrer l'ingrati<g ref="char:EOLhyphen"/>tude, est au contraire le principe de la ge<g ref="char:EOLhyphen"/>nerosité: mais je parle de ce sot orgueil qui est une fumée qui nous enteste, &amp; nous porte à nous estimer beaucoup au delà de ce que nous valons: c'est celuy qui engendre l'ingratitude, parce qu'il voudroit ne rien devoir qu'à soy-même; &amp; pour peu que tu veüilles l'examiner, tu trouveras ce caractere dans la pluspart des Anglois, qui ont payé d'ingratitude les bienfaits de leur Roy: car je ne parle que de ceux-là, &amp; non pas de ceux qui ont conservé pour luy une sidelité invio<g ref="char:EOLhyphen"/>lable.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Immediatement aprés ce Livre on en voyoit un autre qui portoit pour titre. <hi>Traité de l Empire de la Mer.</hi> Il
+<pb n="43" facs="tcp:103294:22"/>étoit en deux volumes in folio, moitié Anglois &amp; moitié Holandois, distribué en quatre-vingt-seize chapitres des premier, second, troisiéme &amp; quatriéme rang, &amp; l'impression en avoit été faite par les soins du Vice-Amiral Herbert.</p>
+               <p>MARE. Ce Livre contenoit aparem<g ref="char:EOLhyphen"/>ment les grandes proüesses &amp; les vigou<g ref="char:EOLhyphen"/>reuses expeditions des deux flotes d'An<g ref="char:EOLhyphen"/>gleterre &amp; de Holande jointes ensemble, &amp; de quelle maniere elles prirent le vent arriere, &amp; enflérent leurs voiles pour se conserver le pas devant sur celle de France, qui ne les suivoit qu'en queuë sans les pouvoir atteindre, je voudrois bien que Herbert eust dedié ce Livre au Marquis de Seignelay à la veuë duquel il plia si bien bagage.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Il n'avoit garde: car pour luy faire un present il auroit fallu aborder, &amp; Herbert n'avoit pas cette mission. Le pre<g ref="char:EOLhyphen"/>mier volume étoit tout bouffy de Rodo<g ref="char:EOLhyphen"/>montades, à les entendre, ils n'étoient embarassez que fur le choix des Costes pour leur descente: Ils tenoient Brest, di<g ref="char:EOLhyphen"/>soient ils, à la gorge, &amp; couchoient Tour<g ref="char:EOLhyphen"/>ville en joüe; mais à l'apparition de ce Demon meridional, le volume Rodomont
+<pb n="44" facs="tcp:103294:23"/>finit, &amp; le caquet du Gazetier de Holande fut rabato. Ainsi le second volume ne fait fait plus que traiter des raisons sages, pru<g ref="char:EOLhyphen"/>denres &amp; profondes qui<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>sirent résoudre Herbert à une prompte retraite, de crainte d'estre mordu de la. Couleuvre, &amp; l'obli<g ref="char:EOLhyphen"/>gerent de s'aller couvrir dans les ports d'Angleterre, d'où depuis il ne s'est pas avisé de denicher.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Rien ne m'a plus donné d'é<g ref="char:EOLhyphen"/>tonnement que cette puissance inconce<g ref="char:EOLhyphen"/>vable des François sur l Ocean, &amp; entre: tous les miracles de Loüis le Grand, l on peut conter celuy là pour le plus merveil<g ref="char:EOLhyphen"/>leux. L'Angleterrre &amp; la Holande dispu<g ref="char:EOLhyphen"/>toient autrefois entr'elles l'Empire de la Mer, la France auroit balancé de se com<g ref="char:EOLhyphen"/>mettre sur les eaux contre une seule de oes Nations, &amp; aujourd'huy la voila in<g ref="char:EOLhyphen"/>contestablement superieure à toutes les deux unies ensemble.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Aprés l'épreuve d'une si grande puissance sur Mer, je croy que la France est en état non seulement de faire teste toute seule à l'Europe entiere en se tenant comme elle a bien voulu le faire sur la défensive, mais que ne manquant ny d'hommes, ny d'argent, elle peut paslen
+<pb n="45" facs="tcp:103294:23"/>à l'attaque quand il luy plaira: il faut sur cela que je tê dise une épigramme de qua<g ref="char:EOLhyphen"/>tre petits vers Latins que celuy qui a re<g ref="char:EOLhyphen"/>cuëilly nos Dialogues fit lorsque les flotes d'Angleterre &amp; de Holande cederent la Mei, &amp; n'oserent la tenir à la veuë de celle de Loüis le Grand.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Tu me feras plaisir, car tout ce qu'il fait entre assez dans mon goust.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Les voicy: Ecoute.</p>
+               <p>AD LUDOVICUM MAGNUM.</p>
+               <l>
+                  <hi>Te L<gap reason="illegible: faint" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>gures, Afrique jovem sensere. Tri<g ref="char:EOLhyphen"/>deniem</hi>
+               </l>
+               <l>
+                  <hi>Si moveas, Ba<gap reason="illegible: faint" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>avus cedit &amp; Anglus aquis.</hi>
+               </l>
+               <l>
+                  <hi>Nec te opibus vincit Pl<gap reason="illegible: faint" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>to, nee mente Mi<g ref="char:EOLhyphen"/>nerva.</hi>
+               </l>
+               <l>
+                  <hi>Quis dubitet tantis sedere nisminibus.</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>MARF</speaker>
+               <p>C'est à dire que Loüis le Grand est Jupiter sur terre, Neptune sur les eaux, Pluton dans ses coffres &amp; Minerve dans son Conseil, ou pour quitter l'allegorie des Poëtes, &amp; parler plus homme, c'est à dire qu'il a des forces invincibles sur Terre, des flotes tres-puissantes sur Mer, de l'argent dans son Epargne plus que ses ennemis, &amp; sur tout la meilleure teste du monde, &amp; qu'avec cela il peut garantir
+<pb n="46" facs="tcp:103294:24"/>fa Monarchie de tous les grands projets de la Conspiration d'Ausbourg, &amp; les re<g ref="char:EOLhyphen"/>duire en fumée: mais c'est assez raison<g ref="char:EOLhyphen"/>ner sur ce Livre, passons aux autres.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Celuy qu'on voyoit ensuite étoit intitulé <hi>Le nouveau crime d'Eiat.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Je ne comprens pas bien ce que veut dire ce titre.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Il est neanmoins fort aisé à com<g ref="char:EOLhyphen"/>prendre. C'est un volume in folio impri<g ref="char:EOLhyphen"/>mé par les soins d'Alifax, &amp; dedié au Cuisinier de Mylord Griffin. Dans ce Li<g ref="char:EOLhyphen"/>vre on fait voir que le crime de la plus haute &amp; plus noire trahison, c'est d'avoir une fidelité constante pour son Roy legi<g ref="char:EOLhyphen"/>time, &amp; d'entretenir avec luy la moindre cortespondance. <hi>Dat vaniam corvis, ve<g ref="char:EOLhyphen"/>xat censura columbas.</hi> Mais patience, à beau jeu beau retour. Immediatement aprés ce Livre on en voyoit un fort plai<g ref="char:EOLhyphen"/>sant, intitulé <hi>Invemaire de la Toileie &amp; Bagage de la nouvelle Reine d'Espagne, le cout proprement plié ajusté &amp; serré dans un chausson, pour la commodité du voyage, &amp; recommandé en toute asseu ance au Roi Guillemot.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>L'on pouvoit donner à ce Livre une seconde partie sous le titre de
+<pb n="47" facs="tcp:103294:24"/>
+                  <hi>Lezire de Mansfelt nouveau Fermiet g<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:EOLhyphen"/>neral</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Ta pensée n'est pas imperti<g ref="char:EOLhyphen"/>nentc; car qui diable s'est jamais avisé de mettre en party &amp; adjuger au rabais la conduite d'une Reine? J'ay bien vû pratiquer de publier &amp; donner au rabais la conduite d'un prisonnier qui se trans<g ref="char:EOLhyphen"/>fere d'une Ville à l'autre, ou la conduite d'une chaîne de forçats; mais adjuger au rabais celle d'une Reine, c'est une pilule que mon esprit ne peut digerer: Sil y avoit en Allemagne des Fermiers generaux des cinq grosses Fermes aussi avides que Raimond, ils feroient un procés à Mans<g ref="char:EOLhyphen"/>felt, pour leur avoir souflé ce gros parti.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Ne ris tu point quand tu son<g ref="char:EOLhyphen"/>ges avec quelle exactitude c<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t Oecono<g ref="char:EOLhyphen"/>me compte jusqu'aux lardons qu'on met sur les deux petits poulets qu'il a reglé pour le soupé de la Princesse, &amp; avec quel ménage il met à profit jusqu'au vin de present dont les Villes sont obligées de la régaler; &amp; que ce Maître, d'Hôtel file bouteille à bouteille pour tous les re<g ref="char:EOLhyphen"/>pas.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Si elle aime à boire frais, elle est (comme on dit) à même, puisque
+<pb n="48" facs="tcp:103294:25"/>ce bon Fourrier luy a marqué son logis au milieu des glaces.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Oh! que nos hyperboliques Poëtes Italiens avec leurs pensées outrées feroient de beaux Vers sur cet incident: quelle matiere ne leur fourniroit point le combat de ces glaçons avec les feux de son amour conjugal? Ils feroient fondre ces glaces par le brandon de l'amour, par le flambeau de l'hymenée, &amp; par la cha<g ref="char:EOLhyphen"/>leur des soupirs de la Princesse; &amp; si ces glaces s'obstinoient contre tant de feux, ils ne manqueroient pas de l'attribuer à la ruse du Dieu du fleuve, qui sétant épris d'amour à la vûë de la beauté Pa<g ref="char:EOLhyphen"/>latine, &amp; jaloux des contentemens desti<g ref="char:EOLhyphen"/>nez à un rival, s'efforce de la retenir dans ses bras.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Mais passera-t'elle bien sure<g ref="char:EOLhyphen"/>ment, &amp; la Palatine de Neufoourg ne deviendra-t'elle point la fi<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ncée du Roy de Garbe?</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>C'est la question: il ne nous est pas permis de penetrer dans un futur con<g ref="char:EOLhyphen"/>tingent; &amp; c'est l'affaire de Guillemot, qui (sans en consulter les Holandois) luy a promis leur flote, dont il a souveraine<g ref="char:EOLhyphen"/>ment &amp; arbitrairement disposé. Sur un
+<pb n="49" facs="tcp:103294:25"/>troisiéme rang r<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>mpli de plus petits volu<g ref="char:EOLhyphen"/>mes on en avoit mis d'abord un qui n'étoit guetes plus gros qu'un Almanach, &amp; qu'on avoit intitulé, <hi>Explication de deux Qua<g ref="char:EOLhyphen"/>trains des Centuries de Nostradaemus par le Prophete Jurieu.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Et quels sont ces deux Qua<g ref="char:EOLhyphen"/>trains qu'il a commentez?</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>L'un explique assez clairement la conjuration des Anglois contre leur Roy, l'entreprise de Guillemot executée par mer, &amp; son invasion du Thrône; &amp; l'autre pronostique en termes bien clairs quelle sera la catastrophe de cette entre<g ref="char:EOLhyphen"/>prise, qui n'aboutira qu'à la confusion du Tyran, &amp; à la ruine de ses suposts.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>J'ay déja sçû celuy qui pro<g ref="char:EOLhyphen"/>nostiquoit l'usurpation de la Couronne d'Angleterre par un Holandois que No<g ref="char:EOLhyphen"/>stradamus désigne par le mot <hi>Natif de Frise,</hi> suivant la licence Poëtique &amp; le jargon de tels Prophetes, qui nomment souvent le tout par la partie; &amp; il m<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> semble que ce Quatrain disoit:
+<q>
+                     <l>Trente de Londres secret conjureront</l>
+                     <l>Contre leur Roy: surle Pont l'entreprise,</l>
+                     <l>Luy, satellites, la mort dégoûteront,</l>
+                     <l>Un Roy élu: Blonde: natifde Frise.</l>
+                  </q>
+               </p>
+               <pb n="50" facs="tcp:103294:26"/>
+               <p> Pour ajuster ce Quatrain à l'entreprise de Guillemot, on a dit que le premier Vers expliquoit une Conjunation presque ge<g ref="char:EOLhyphen"/>nerale des Anglois, parce que le <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ot de <hi>trente</hi> doit se prend<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e comme un nombre certain mis pour une multitude ince<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>aine; que le mot de <hi>Pont</hi> dans le second Vers étoit tiré du mot La<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>in <hi>R<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nt<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>es,</hi> &amp; vouloit dire la Mer, comme on dit le Pont Euxin pour la Mer? Euxi<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e; &amp; c'est a<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>dire que l'entreprise se feroit parome<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>: que c<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>mot <hi>la mort d<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>goûteront,</hi> vouloit dire <hi>
+                     <gap reason="illegible" resp="#keyers" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> mort eviteront,</hi> en prenant <hi>
+                     <gap reason="illegible" resp="#keyers" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> &amp; dégouter</hi> pour oposez, commefaire &amp; défaire, Aussi le Roy &amp; ceux qui luy ont été fidêles, ont évité par la fuite une mort qui leur étoit assuree; &amp; quiensin le dernier Vers marquoit l'élection du Pri<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ce d'Orauge, designé par le mot <hi>Bla<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>de,</hi> qui est la cou<g ref="char:EOLhyphen"/>leur de ce fruit, &amp; par le mot de <hi>Natif de Frise,</hi> qui est à d<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e Holandois. Mais je n'ay pas oüi parl<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> qu'il y <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ût dans No<g ref="char:EOLhyphen"/>stradamus unautre Quatrain qui pron<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>st<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>que clairement une c<gap reason="illegible" resp="#keyers" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>strophe fu<gap reason="illegible" resp="#keyers" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>te à ce<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Usurpateur.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Il y en a un qui parle encore plus clairement que l'autre: c'est le soi<g ref="char:EOLhyphen"/>xante &amp; seiziéme de la dixiéme Centurie; &amp; le voicy:
+<q>
+                     <pb n="51" facs="tcp:103294:26"/>
+                     <l>
+                        <gap reason="illegible" resp="#keyers" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>s grand S<gap reason="illegible" resp="#keyers" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>na<gap reason="illegible" resp="#keyers" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> decerner a la pompe</l>
+                     <l>A<gap reason="illegible" resp="#keyers" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>un qu'aprés sera vaincu, chassez</l>
+                     <l>Ses adherans seront à son de trompe,</l>
+                     <l>Biens publiez, ennemis déchassez.</l>
+                  </q>
+               </p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Tu as raison de dire que cette P<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ophetie est claire, elle n'a pas besoin de grande explication; le mot de <hi>Grand Se<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#keyers" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>
+                  </hi> ne se pouvant appliquer qu'au Parle<g ref="char:EOLhyphen"/>ment d'Angleterre, que le même Nostra<g ref="char:EOLhyphen"/>damus a qualifié de ce nom dans un autre endroit, lorsqu'il a pronostiqué le parri<g ref="char:EOLhyphen"/>cide qui se commettroit par le long Parle<g ref="char:EOLhyphen"/>ment en la personne de Charles I. Voicy comme il parle:</p>
+               <p>
+                  <hi>S<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t de Lo<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>es mettra à mort <gap reason="illegible" resp="#keyers" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Roy.</hi> Mais de<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> toutes ces Propheties il en est comme des Almanachs, Dieu sur tout: <hi>Futurumcaliginosa nocte<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>premit Deus.</hi> Ce<g ref="char:EOLhyphen"/>pendant quoy qu'une infinité de gens se moque des Quadrains de Nostradamus comme des visions creusées d'un esprit ma<g ref="char:EOLhyphen"/>lade, il faut neanmoins demeure<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> d'accord qu'il y<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a quelque chose de surnaturel dans ses saillies, &amp; certain homme l'a fortbien dépeint lo<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>sque faisant parler ce Prophéte dans un Po<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>me, il luy fait dire ces Vers.</p>
+               <pb n="52" facs="tcp:103294:27"/>
+               <p>
+                  <hi>C'est m<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>y qui par le jeu de mille Vers obs<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>urs Expliquant &amp; cachant à nos s<gap reason="illegible" resp="#keyers" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>clss fu<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>urs Des plus grands Pocentats les hautes avan<g ref="char:EOLhyphen"/>tu<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>es, Aux espr<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ts curieux ay forgé des tertures, Et mar qué de succez un long enchaînement Qu'on ne p<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ut demêler qu'aprés l'évenement.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Quoy qu'il en soit voila ce qu'il dit. Le Livre suivant avoit pour ti<g ref="char:EOLhyphen"/>tre, <hi>Imrigue amoure<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>se de la dernier<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Conspiration d'Angleterre.</hi>
+               </p>
+               <p>MARF Ce titre comprend un mystere que je ne peux pas déveloper, &amp; je n'ay jamais imaginé que l'amour fust de part dans la Conjuration du Prince d'Orange, &amp; que cette passion ai<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> été un des mobi<g ref="char:EOLhyphen"/>les de cette entreprise.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Bien d'autres que toy &amp; des plus hupez ne le sçavent pas, &amp; tu peux bien croire qu'il faut que j'aye eu des me<g ref="char:EOLhyphen"/>moires bien particuliers pour sçavoir ce que je vas t'aprendre, mais à condition que tu me garderas le secret autant qu'un homme comme toy a coûtume de garder. Ne vas pas d'abord t'imaginer que ce soit quelque Intrigue amoureuse de Guillemot, tu sçais que le pauvre homme est sur ce fait <hi>de
+<pb n="53" facs="tcp:103294:27"/>frig<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>dis frigissimis,</hi> &amp; quand il ne seroit pas <hi>impotent<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ssimus</hi> par l'endroit que tu sais, sa poitrine asthmatique ne luy permet pas de songer à une Maîtresse, &amp; souvent même la panvre Guillemette a sujet de se plaindre.</p>
+               <p>
+                  <hi>Quòd lateri parcat, nec quan<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ùm jussis anhelet.</hi>
+               </p>
+               <p>Mais l'intrigue est que feu Montmouth grand &amp; vigoureux substitut avoit pour cette Cousine toute la tendresse qu'on peut avoir, &amp; en étoit reciproquement, &amp; l'on peut dire éperdûment aimé. Ce gros Gars pour se mettre en état de donner la main à la Princesse, forma son entreprise sur l'Angleterre, dans l'intention que si la fa<g ref="char:EOLhyphen"/>veur populaire l'eust mis sur le Thrône, il se seroit fait reconnoître pour <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ils legitime de. Charles II. &amp; auroit repudié sa fen me, &amp; en méme tems la Princesse de son côté auroit planté là son froid Epoux, &amp; faisant divorce avec luy sur la raison de son im<g ref="char:EOLhyphen"/>puissance, elle auroit épousé Montmouth, qui par ce mariage se seroit assermy sur le Thrône, en joignant à ses droits ceux de la Fille aînée du Roy Jacques qui pourlors n'avoit point de Fils. Ainsi la Princesse eust tout à la fois satisfait l'amour &amp; l'ambi<g ref="char:EOLhyphen"/>tion
+<pb n="54" facs="tcp:103294:28"/>dont elle étoit également devorée, Montmouth eut le malheut de succomber, &amp; sa prison a yant donné à la pauvre Aman<g ref="char:EOLhyphen"/>te tous les déplaisirs qulon peu<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> imaginer, elle n'ou<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lia rien pour exciter son Pe<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e à luy sauver la vie. Mais la justice, la rai<g ref="char:EOLhyphen"/>son d'E<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>at, &amp; peut-être méme le chagrin causé par la connoissance de ce secret a<g ref="char:EOLhyphen"/>mour<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ux, la yant emporté sur les soûpirs &amp; les intercessions pressantes d'une Fille, ce Rebelle perdit la teste, &amp; fut immolé aux repos que Jacques croyoit donner à son Etat. La Princesse affligée &amp; outrée de la perte de Montmouth, sacrisia dés ce moment tous les sentimens de la nature aux ressentimens de son amout, &amp; no pou<g ref="char:EOLhyphen"/>vant regner ave<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>! Montmouth, son a<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hi<g ref="char:EOLhyphen"/>tion la <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>it <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>esoud<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o à essayer de <gap reason="illegible" resp="#keyers" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> av<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> Guille<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ot, &amp; d'employ<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> le bra<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> du mary p<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>r vanger le sang de l'amant<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Alors sur lesdébris de la Conspira<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ion <gap reason="illegible" resp="#keyers" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Montmouth elle com<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>en<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e à bâti<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> ses pratiques <gap reason="illegible" resp="#keyers" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>velles, &amp; pour se vangen<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> d'un Pere <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>pan<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> voit de plus che<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> au<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> mon<gap reason="illegible" resp="#keyers" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>, ell<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <gap reason="illegible" resp="#keyers" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> si adroitement sorvie de la conjonctu<gap reason="illegible" resp="#keyers" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> des affi<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ires de l'Europe, de la pers<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>die des Ang<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ois, de <gap reason="illegible" resp="#keyers" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> de la Reli<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ion, &amp; d<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb n="55" facs="tcp:103294:28"/>l'ambition de son Mary, qu'en<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n elle a monté sur le Thrône dont elle a chassé celuy qui luy a donné la vie:</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Tu m'apprens une cllose bien particuliere, &amp; que je ne savois pas: mais par qui as tu pû découvrir un <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>el secret?</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>On l'a sçu par la Comtesse de Kil... qui étoit intime de la plus secrete Confidente de cette Princesse; mais il suffit que la chose est comme je te l'ay contée, &amp; toute cette histoire étoit elegamment é<g ref="char:EOLhyphen"/>crite dans ce petit volume qui n'étoit qu'en manuscrit: mais Guillemot qui étoit bien aise que personne ne le lust, mis d'abord la<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> main dessus, &amp; le founa au plus viste dans sa poche.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Il est justement caché comme ces<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>perd<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ix qui fiehent leur te<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e à terre &amp; levent la queuë Il a beau serrer ce Livre, quelque soin qu'un mary prenne à cacher ces sortes de misteres, ce son des eaux vives qui percent tous les obstacles, &amp; u<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> sont<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ine que si<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>vous en bouchez une issuë, en ouvre quatre autres à di<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> pas de là.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Chacun y est pour soy: Mais Guillemot doit étre bien contant de cette Intrigue amoureuse, puisqu'elle luy a cou<g ref="char:EOLhyphen"/>ro<gap reason="illegible" resp="#keyers" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> la teste.</p>
+            </sp>
+            <sp>
+               <pb n="56" facs="tcp:103294:29"/>
+               <speaker>MARF.</speaker>
+               <p>De plus d'une Couronne.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Oüi puisqu'il possede celle d'An<g ref="char:EOLhyphen"/>gleterre &amp; celle d'Ec<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>sle.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Je ne l'entendois pas tout à fait comme toy; mais c'en est as<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ez sur ce chapitre: Je me trompe fort si<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> les Fran<g ref="char:EOLhyphen"/>çois laissent échaper un si<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> beau sujet de Nouvelle Historique, quelque pe<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>sion<g ref="char:EOLhyphen"/>naire de Barbin y trouvera belle &amp; cu<g ref="char:EOLhyphen"/>rieuse matiere; poursuis un peu &amp; dis moy les autres Livres.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Guillemot ayant veu celuy-là erut devoir en demeurer sur la bonne bou<g ref="char:EOLhyphen"/>che, &amp; pour n'en pas voir davantage, fit tirer un petit rideau de tafetas verd qui les couvroit, &amp; les volets furent fermez, ainsi on n'a pas pû sçavoir quels étoient les autres. Les Pédans sirent leur piesent qui fut receu, &amp; Guillemot avec son cor<g ref="char:EOLhyphen"/>tége regagna la porte où il étoit attendu par une troupe d'Ecoliers qui le regalerent de quelques Vers de College pour le re<g ref="char:EOLhyphen"/>mercier de l'honneur de sa visite préten<g ref="char:EOLhyphen"/>dc Royale.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Laissons-le là, &amp; allons nous en brûler un fagot en attendant le cou<g ref="char:EOLhyphen"/>rier d'Allemagne qui doit aporter des nou<g ref="char:EOLhyphen"/>velles touchant l'élection d'un Roy des
+<pb n="57" facs="tcp:103294:29"/>Romains. Si-tost que nous aurons nostre paquet il poura nous fournir matiere à un entretien sur ce sujet qui ne sera pas le pire des nostres.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Ce ne sera pas à nous un pe<g ref="char:EOLhyphen"/>tit ouvrage que de bien deméler les inte<g ref="char:EOLhyphen"/>rests differens de tous ces Electeurs au sujet de cette élection, &amp; si nous n'avons le fil d'Ariane, nous pourons bien nous égarer dans ce Dédale.</p>
+            </sp>
+            <sp>
+               <speaker>MARF.</speaker>
+               <p>Le peloton ne nous manquera pas: mais je suis las de causer, entrons.</p>
+            </sp>
+            <sp>
+               <speaker>PASQ.</speaker>
+               <p>Entre, je te suis: en attendant la Diete d'Ausbourg.</p>
+            </sp>
+            <trailer>FIN.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
